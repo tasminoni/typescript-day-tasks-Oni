@@ -1,0 +1,15 @@
+{
+  "name": "typescript-day-tasks",
+  "version": "1.0.0",
+  "description": "Daily TypeScript tasks and exercises",
+  "main": "dist/day1.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/day1.js",
+    "dev": "tsc && node dist/day1.js",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
